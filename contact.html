@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez KSTP Premium pour vos commandes en gros de champagne et vin. Devis personnalisé, paiement flexible pour professionnels.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Contact & Devis | KSTP Premium - Vente en Gros Reims</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">KSTP <span>PREMIUM</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="about.html" class="nav-link">À Propos</a></li>
+                <li><a href="champagnes.html" class="nav-link">Champagnes</a></li>
+                <li><a href="vins.html" class="nav-link">Vins</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero" style="height: 50vh; min-height: 400px;">
+        <img src="images/hero-tasting.jpg" alt="Contact KSTP Premium" class="hero-background">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <p class="hero-subtitle">Parlons Affaires</p>
+            <h1>Contactez-Nous</h1>
+            <p>Demandez votre devis personnalisé</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Formulaire -->
+                <div>
+                    <h2 style="color: var(--color-primary); margin-bottom: 1.5rem;">Demande de Devis</h2>
+                    <p style="margin-bottom: 2rem; color: var(--color-gray);">
+                        Remplissez ce formulaire et notre équipe vous répondra dans les plus brefs délais avec un devis personnalisé.
+                    </p>
+                    
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label class="form-label" for="societe">Nom de la Société *</label>
+                            <input type="text" id="societe" name="societe" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="tel">Téléphone *</label>
+                            <input type="tel" id="tel" name="tel" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="produits">Produits Intéressés *</label>
+                            <select id="produits" name="produits" class="form-select" required>
+                                <option value="">Sélectionnez...</option>
+                                <option value="champagnes-millesimes">Champagnes Millésimés</option>
+                                <option value="champagnes-brut">Champagnes Brut</option>
+                                <option value="champagnes-rose">Champagnes Rosé</option>
+                                <option value="vins-rouges">Vins Rouges</option>
+                                <option value="vins-blancs">Vins Blancs</option>
+                                <option value="vins-roses">Vins Rosés</option>
+                                <option value="selection-mixte">Sélection Mixte</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="quantites">Quantités Approximatives</label>
+                            <input type="text" id="quantites" name="quantites" class="form-input" placeholder="Ex: 100 bouteilles">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message / Détails de votre demande *</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Envoyer la Demande de Devis
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Informations Contact -->
+                <div class="contact-info">
+                    <h3 style="color: var(--color-primary); margin-bottom: 2rem;">Nos Coordonnées</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Adresse</h3>
+                            <p>
+                                KSTP PREMIUM<br>
+                                12 Rue Guillaume Apollinaire<br>
+                                51100 REIMS<br>
+                                FRANCE
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contact@kstp-premium.com" style="color: var(--color-gold);">contact@kstp-premium.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <p>
+                                +33 3 39 91 20 14<br>
+                                +33 7 43 68 83 99
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 3rem; padding: 2rem; background: white; border-radius: 10px; border-left: 5px solid var(--color-gold);">
+                        <h4 style="color: var(--color-primary); margin-bottom: 1rem;">Modes de Paiement</h4>
+                        <p style="margin-bottom: 0.8rem;"><strong>Nouveaux clients :</strong><br>Virement bancaire</p>
+                        <p style="margin-bottom: 0;"><strong>Anciens clients :</strong><br>Paiement 30 à 60 jours selon conditions</p>
+                    </div>
+                    
+                    <div style="margin-top: 2rem; padding: 1.5rem; background: white; border-radius: 10px;">
+                        <h4 style="color: var(--color-primary); margin-bottom: 1rem;">Horaires d'Ouverture</h4>
+                        <p style="margin: 0; line-height: 1.8;">
+                            <strong>Lundi - Vendredi :</strong> 9h00 - 18h00<br>
+                            <strong>Samedi :</strong> Sur rendez-vous<br>
+                            <strong>Dimanche :</strong> Fermé
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section section-cream">
+        <div class="container text-center">
+            <h2 style="color: var(--color-primary); margin-bottom: 1rem;">Pourquoi Choisir KSTP Premium ?</h2>
+            <p style="max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem; color: var(--color-gray);">
+                Service client réactif, tarifs professionnels compétitifs et livraison rapide partout en France
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto;">
+                <div>
+                    <div style="font-size: 3rem; color: var(--color-gold); margin-bottom: 1rem;">⚡</div>
+                    <h4 style="color: var(--color-primary);">Réponse Rapide</h4>
+                    <p style="color: var(--color-gray);">Devis sous 24-48h</p>
+                </div>
+                <div>
+                    <div style="font-size: 3rem; color: var(--color-gold); margin-bottom: 1rem;">💼</div>
+                    <h4 style="color: var(--color-primary);">Service Pro</h4>
+                    <p style="color: var(--color-gray);">Accompagnement dédié</p>
+                </div>
+                <div>
+                    <div style="font-size: 3rem; color: var(--color-gold); margin-bottom: 1rem;">✓</div>
+                    <h4 style="color: var(--color-primary);">Qualité Garantie</h4>
+                    <p style="color: var(--color-gray);">Sélection rigoureuse</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>KSTP Premium</h3>
+                    <p>Votre expert en vente en gros de champagnes et vins d'exception à Reims.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À Propos</a>
+                    <a href="champagnes.html">Nos Champagnes</a>
+                    <a href="vins.html">Nos Vins</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Informations Légales</h3>
+                    <a href="mentions.html">Mentions Légales</a>
+                    <a href="cgv.html">CGV</a>
+                    <a href="confidentialite.html">Politique de Confidentialité</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>12 Rue Guillaume Apollinaire<br>51100 REIMS, France</p>
+                    <p><strong>Email:</strong> contact@kstp-premium.com<br><strong>Tél:</strong> +33 3 39 91 20 14</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 KSTP Premium - Tous droits réservés | Site développé par <a href="https://w2k-digital.com" target="_blank">W2K Digital</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
